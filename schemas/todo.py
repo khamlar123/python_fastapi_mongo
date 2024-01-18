@@ -8,3 +8,4 @@ def individual_serial(todo) -> dict:
 
 def list_serial(todos) -> list:
     return [individual_serial(todo) for todo in todos]
+
