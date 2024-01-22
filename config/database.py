@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 
 client = MongoClient("mongodb://localhost:27017")
-db = client.todo_db
+db = client.fastapi
 
-collection_name = db["todo_collection"]
 collection_user = db["user_collection"]
+collection_role = db["role_collection"]
